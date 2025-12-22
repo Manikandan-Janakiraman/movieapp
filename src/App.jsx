@@ -4,7 +4,8 @@ import SearchIcon from "./search.svg"
 import MovieCard from './MovieCard'
 
 
-const API_URL = 'http://www.omdbapi.com/?apikey=9075ce11'
+const API_URL = `https://www.omdbapi.com/?apikey=${import.meta.env.VITE_OMDB_API_KEY}`;
+
 
 // const movie = {
 //   "Title": "Batman Begins",
